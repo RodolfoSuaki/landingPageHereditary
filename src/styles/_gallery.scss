@@ -1,0 +1,39 @@
+.gallery{
+    padding: 2vw 5.6vw;
+    background: -webkit-linear-gradient(top, #19496f, #000000);
+    background: -moz-linear-gradient(top, #19496f, #000000);
+    background: -ms-linear-gradient(top, #19496f, #000000);
+    background: -o-linear-gradient(top, #19496f, #000000);
+    background: linear-gradient(to bottom, #19496f, #000000);
+
+    &__title{
+        font-size: 2em;
+        text-transform: uppercase;
+        padding: 2vw 0;
+        letter-spacing: 5px;
+    }
+
+    &__items{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+
+        @media (max-width:768px) {
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__item{
+            object-fit: cover;
+            height: 400px;
+            width: 600px;
+            padding: 20px 10px;
+
+            @media (max-width:768px) {
+                width: 300px;
+                height: 200px;
+            }
+        }
+    }
+}

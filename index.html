@@ -5,8 +5,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hereditary</title>
     <link rel="stylesheet" href="dist/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&family=Shadows+Into+Light&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Oi</h1>
+    <header class="header">
+        <div class="header__container">
+            <h1 class="header__title">
+                HEREDITARY
+            </h1>
+            <nav class="header__menu">
+                <ul>
+                    <li>
+                        <a href="#trailer">Trailer</a>
+                    </li>
+                    <li>
+                        <a href="#synopsis">Synopsis</a>
+                    </li>
+                    <li>
+                        <a href="#gallery">Gallery</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="trailer" class="trailer">
+        <iframe width="1280" height="680" src="https://www.youtube.com/embed/V6wWKNij_1M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
+    <section id="synopsis" class="synopsis">
+        <div class="synopsis__container">
+            <div class="synopsis__item">
+                <img class="synopsis__item__img" src="./src/img/atriz_cena.jpg" alt="">
+                <p class="synopsis__item__paragraph">
+                    Hereditary is an intense psychological horror film that follows the harrowing journey of the Graham family as they untrailer dark secrets following the death of their reclusive grandmother....
+                </p>
+            </div>
+            <div class="synopsis__item">
+                <p class="synopsis__item__paragraph">
+                    ...Confronted by unexplained events and hauntings, the family begins to question their own sanity, revealing a sinister heritage that threatens to consume them completely.
+                </p>
+                <img class="synopsis__item__img" src="./src/img/imagem fundida.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section id="gallery" class="gallery">
+        <h3 class="gallery__title">Gallery</h3>
+        <div class="gallery__items">
+            <img class="gallery__items__item" src="./src/img/comunicando.webp" alt="">
+            <img class="gallery__items__item" src="./src/img/charlie_cena.jpg" alt="">
+            <img class="gallery__items__item" src="./src/img/peter_cena.jpg" alt="">
+            <img class="gallery__items__item" src="./src/img/toni_cena.jpg" alt="">
+            <img class="gallery__items__item" src="./src/img/head.jpg" alt="">
+            <img class="gallery__items__item" src="./src/img/cena_fogo.webp" alt="">
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__container">
+            <p class="footer__author">Created by Rodolfo Suaki for <span>Hereditary</span></p>
+            <p class="footer__copy">© 2018 A24 Films. All rights reserved. <a href="https://a24films.com/films/hereditary">Official website</a></p>
+            <ul class="footer__social">
+                <li>
+                    <a class="footer__social__link" href="https://www.facebook.com/HereditaryMovie/">
+                        <img class="footer__social__icon" src="./src/img/002-facebook.png" alt="Facebook icon">
+                    </a>
+                </li>
+                <li>
+                    <a class="footer__social__link" href="https://twitter.com/hereditarymovie">
+                        <img class="footer__social__icon" src="./src/img/003-twitter.png" alt="Twitter icon">
+                    </a>
+                </li>
+                <li>
+                    <a class="footer__social__link" href="https://www.instagram.com/hereditarymovie/">
+                        <img class="footer__social__icon" src="./src/img/001-instagram.png" alt="Instagram icon">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>    
 </body>
 </html>

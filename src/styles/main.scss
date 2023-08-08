@@ -1,5 +1,20 @@
-$bgColor: rgb(0, 81, 255);
+@use 'variaveis';
+@use 'trailer';
+@use 'footer';
+@use 'gallery';
+@use 'header';
+@use 'synopsis';
 
-body{
-    background-color: $bgColor;
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: variaveis.$corTextoPrincipal;
+    font-family: 'Roboto', sans-serif;
 }
+
+ul{
+    list-style-type:none;
+}
+

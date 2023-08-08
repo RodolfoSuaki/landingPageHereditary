@@ -1,0 +1,33 @@
+@use 'variaveis';
+
+.footer{
+    background-color: variaveis.$corDeFundo;
+    padding: 2vw 5.6vw;
+
+    &__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        @media (max-width:768px) {
+            p{
+                text-align: center;
+            }
+        }
+    }
+
+    &__social{
+        display: flex;
+        padding-top: 20px;
+
+        @media (max-width:768px) {
+            padding-top: 30px;
+        }
+
+        &__icon{
+            height: 40px;
+            padding-left: 5px;
+        }
+    }
+}

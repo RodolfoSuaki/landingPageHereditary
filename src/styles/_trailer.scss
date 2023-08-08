@@ -1,0 +1,26 @@
+.trailer{
+    padding: calc(2vw + 70px) 5.6vw;
+    background-image: url(/src/img/cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+
+    @media (max-width:768px) {
+        background-image: url(/src/img/imagem_poster_casa.jpg);
+    }
+    
+
+    iframe{
+        align-items: center;
+        justify-content: center;
+        background-size: cover;
+    }
+
+    @media (max-width:768px) {
+        iframe{
+            width:350px; 
+            height:200px;
+        }
+    }
+}
